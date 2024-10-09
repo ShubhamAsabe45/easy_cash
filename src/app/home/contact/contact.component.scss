@@ -1,0 +1,60 @@
+
+.contact-content {
+    margin-left: 20px;
+}
+
+.contact span i{
+    font-size: 22px;
+    display: block;
+    margin-top: 3px;
+    color: #0354cc;
+}
+
+.cont-title {
+    font-size: 25px;
+    line-height: 30px;
+    color: var(--header-title-color);
+    font-weight: 600;
+}
+
+.cont-para a{
+    text-decoration: none;
+    font-size: 16px;
+    line-height: 26px;
+    color: var(--para-color);
+}
+
+.cont-para a:hover{
+    color: #0354cc;
+}
+
+.cont-main{
+    margin-top: 60px;
+}
+.custom-control{
+    border: 1px solid #dedede;
+    background: #f8f9fa;
+    color: #777;
+    font-size: 16px;
+    padding: 12px 15px;
+    width: 100%;
+    border-radius: 4px;
+    height: 55px;
+}
+
+.custom-message{
+    min-height: 140px !important;
+}
+
+.custom-btn{
+    padding:15px 25px;
+    border-radius: 5px;
+    background: #21abf9;
+    border: #21abf9;
+}
+
+@media(max-width:768px){
+    .contact-main{
+        margin-top: 15px;
+    }
+}

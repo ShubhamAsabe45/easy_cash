@@ -1,0 +1,97 @@
+// Navbar
+.navbar-brand {
+  color: #0354cc;
+  font-size: 30px;
+  font-weight: 700;
+}
+
+.custom-nav{
+  background-color: #0354cc;
+}
+
+.nav-item {
+  cursor: pointer;
+}
+
+.navbar-brand i {
+  color: #0354cc;
+}
+
+.nav-link {
+  color: #858585;
+}
+
+.nav-link:hover {
+  color: #0354cc;
+}
+
+.nav-link.active {
+  color: #0354cc;
+}
+
+.nav-link.active:hover {
+  color: #0354cc;
+}
+
+.dropdown-toggle::after {
+  position: relative;
+  top: 3px;
+  /* Adjust as needed */
+  right: 4px;
+}
+
+.nav-link-padding {
+  padding: 10px 15px;
+  /* Adjust the padding values as needed */
+}
+
+// .btn-start{
+  // background-color: #0354cc;
+  // color: #fff;
+  // font-weight: 700;
+  // border-radius: 30px;
+  // position: relative;
+  // transition: background-color 0.5s ease, color 0.5s ease; 
+// }
+// 
+// .btn-start:hover {
+  // color: #000; /* Change text color to black on hover */
+  // background-color:#75a4eb;
+// }
+// 
+
+.btn-start {
+  background-color: #0354cc;
+  color: #fff;
+  font-weight: 700;
+  border-radius: 30px;
+  position: relative;
+  overflow: hidden;
+  display: inline-block;
+  transition: color 0.5s ease; /* Transition for text color */
+}
+
+.btn-start::before {
+  content: '';
+  position: absolute;
+  top: 0;
+  left: -100%;
+  width: 100%;
+  height: 100%;
+  background-color: #0d6efd; /* Sky blue color */
+  transition: left 0.5s ease; /* Transition for background */
+  z-index: 0;
+}
+
+.btn-start:hover::before {
+  left: 0; /* Move the background from left to right */
+}
+
+.btn-start:hover {
+  color: #000; /* Change text color to black on hover */
+}
+
+.btn-start span {
+  position: relative;
+  z-index: 1;
+}

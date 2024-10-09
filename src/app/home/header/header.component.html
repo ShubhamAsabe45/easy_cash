@@ -1,0 +1,39 @@
+<!-- Navigation Bar -->
+<nav class="navbar navbar-expand-lg">
+    <div class="container-fluid">
+      <a class="navbar-brand" href="#"><i class="fa-solid fa-building-columns"></i> Easy Cash</a>
+      <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarScroll"
+        aria-controls="navbarScroll" aria-expanded="false" aria-label="Toggle navigation">
+        <span class="navbar-toggler-icon"></span>
+      </button>
+      <div class="collapse navbar-collapse custom-collapse" id="navbarScroll">
+        <ul class="navbar-nav ms-auto my-2 my-lg-0 navbar-nav-scroll" style="--bs-scroll-height: 100px;">
+          <li class="nav-item">
+            <a class="nav-link active nav-link-padding" aria-current="page" href="#">Home</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link nav-link-padding" aria-current="page"  (click)="about()">About</a>
+          </li>
+          <li class="nav-item dropdown">
+            <a class="nav-link dropdown-toggle nav-link-padding" href="#" role="button" data-bs-toggle="dropdown"
+              aria-expanded="false">
+              Pages
+            </a>
+            <ul class="dropdown-menu">
+              <li><a class="dropdown-item" (click)="services()">Services</a></li>
+            </ul>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link nav-link-padding" aria-disabled="true" (click)="contact()">Contact</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link nav-link-padding" aria-disabled="true"><i class="fa-solid fa-phone-volume"></i>
+              +(21)-234-9999</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link nav-link-padding btn-start" aria-disabled="true"><span>Get Started</span></a>
+          </li>
+        </ul>
+      </div>
+    </div>
+  </nav>

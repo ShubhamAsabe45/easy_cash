@@ -1,1 +1,94 @@
-/* You can add global styles to this file, and also import other style files */
+@import url('https://fonts.googleapis.com/css2?family=Nunito:wght@400;600;700&display=swap');
+
+*{
+    padding:0;
+    margin: 0;
+    font-family: 'Nunito', sans-serif;
+}
+
+:root {
+    --back-color: #f9f9f9;
+    --header-title-color: #222;
+    --para-color: #777;
+    --logo-color: #fff;
+    --para-sub-color: #444;
+    --para-white: #ccc;
+}
+
+
+.container .content{
+    border-left: 2px solid #8c89a2;
+    padding-left: 20px;
+    margin-top: 60px;
+    margin-bottom: 50px;
+    max-width: 604px;
+  }
+  .content .content-title{
+    color: var(--header-title-color);
+    font-size: 35px;
+    line-height: 45px;
+    text-transform: capitalize;
+    font-weight: 700;
+  }
+
+  
+.custom-card .card-body .para {
+    font-size: 16px;
+    line-height: 26px;
+    color: var(--para-color);
+  }
+
+
+  // content-cards
+  .icon-hover {
+    transition: transform 0.3s ease-in-out;
+  }
+  
+  .icon-hover:hover {
+    transform: translateY(-5px);
+  }
+  
+  .custom-card .card-body .icon {
+    color: #0354cc;
+    font-size: 40px;
+  }
+  
+  .custom-card .card-body .bs-title {
+    margin-top: 15px;
+    margin-bottom: 20px;
+    // display: inline-block;
+    font-size: 20px;
+    line-height: 30px;
+    color: var(--para-sub-color);
+    font-weight: 600;
+    cursor: pointer;
+    /* Moved this here for clarity */
+    transition: transform 0.3s ease-in-out, color 0.3s ease-in-out, background-color 0.3s ease-in-out;
+  }
+  
+  .custom-card .card-body .bs-title:hover {
+    color: #0354cc !important;
+    /* Added !important to ensure it overrides */
+  }
+  
+  
+  .custom-card .card-body .para {
+    font-size: 16px;
+    line-height: 26px;
+    color: var(--para-color);
+  }
+  
+  .custom-card .card-body .custom-link {
+    border: none;
+    color: #0354cc;
+    font-size: 16px;
+    line-height: 25px;
+    display: inline-block;
+    padding: 0px 0px 2px;
+    text-decoration: none;
+    outline: none;
+    border-radius: 0px;
+    border-bottom: 1.5px solid #0354cc;
+    text-transform: capitalize;
+  }
+  

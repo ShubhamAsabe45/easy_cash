@@ -1,0 +1,147 @@
+.online-deposit {
+    background-image: url('/assets/images/b5.jpg');
+    background-size: cover;
+    /* Makes sure the image covers the entire area */
+    background-position: center;
+    /* Centers the image */
+    height: 220px;
+    /* Sets the height of the object */
+    border-radius: 20px;
+    display: flex;
+    /* Enables flexbox */
+    align-items: center;
+    /* Centers the content vertically */
+    justify-content: center;
+    /* Centers the content horizontally */
+}
+
+.deposite-content {
+    background: #fff;
+    padding: 10px;
+    /* Adds some padding for better appearance */
+    border-radius: 10px;
+    /* Optional: adds some border-radius to match the design */
+    margin: 0px 25px;
+}
+
+
+// Business
+.business-plan {
+    background-image: url('/assets/images/b6.jpg');
+    background-size: cover;
+    /* Makes sure the image covers the entire area */
+    background-position: center;
+    /* Centers the image */
+    height: 220px;
+    /* Sets the height of the object */
+    border-radius: 20px;
+    display: flex;
+    /* Enables flexbox */
+    align-items: center;
+    /* Centers the content vertically */
+    justify-content: center;
+    /* Centers the content horizontally */
+}
+
+.business-content {
+    background: #fff;
+    padding: 10px;
+    /* Adds some padding for better appearance */
+    border-radius: 10px;
+    /* Optional: adds some border-radius to match the design */
+    margin: 0px 25px;
+}
+
+
+// Mobile
+
+.mobile-bank {
+    background-image: url('/assets/images/b7.jpg');
+    background-size: cover;
+    /* Makes sure the image covers the entire area */
+    background-position: center;
+    /* Centers the image */
+    height: 220px;
+    /* Sets the height of the object */
+    border-radius: 20px;
+    display: flex;
+    /* Enables flexbox */
+    align-items: center;
+    /* Centers the content vertically */
+    justify-content: center;
+    /* Centers the content horizontally */
+}
+
+.mobile-content {
+    background: #fff;
+    padding: 10px;
+    /* Adds some padding for better appearance */
+    border-radius: 10px;
+    /* Optional: adds some border-radius to match the design */
+    margin: 0px 25px;
+}
+
+// Comman 
+.card-titles {
+    color: var(--para-light-color);
+    font-size: 22px;
+    line-height: 32px;
+    font-weight: 600;
+    margin-bottom: 15px;
+    text-transform: capitalize;
+    display: inline-block;
+    text-decoration: none;
+}
+
+.card-subcontent {
+    font-size: 16px;
+    line-height: 26px;
+    color: var(--para-color);
+}
+
+.card-title {
+    font-size: 22px;
+    font-weight: 700;
+    line-height: 28px;
+    margin-bottom: 10px;
+    display: inline-block;
+    color: var(--para-sub-color);
+    margin-top: 20px;
+}
+
+.card-text{
+    font-size: 16px;
+    line-height: 26px;
+    color: var(--para-color);
+}
+.card-body{
+    background-color: var(--back-color);
+}
+
+.imgs-card{
+    margin-top: 40px;
+    margin-bottom:40px ;
+}
+@media(max-width:730px){
+    .business-plan{
+        margin:40px 40px
+    }
+}
+
+@media(max-width:768px) {
+    .mobile-bank{
+        margin-top: 20px;
+    }
+}
+
+@media(max-width:320px){
+    .deposite-content {
+        margin: 0px 20px;
+    }
+    .business-content {
+        margin: 0px 20px;
+    }
+    .mobile-content {
+        margin: 0px 20px;
+    }
+}
